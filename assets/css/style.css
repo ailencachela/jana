@@ -116,6 +116,7 @@ ul li {
 @media screen and (min-width: 720px){
     .grilla2 {
         grid-template-columns: repeat(3, 1fr);
+        // el pepe argento
      }
 }
 
