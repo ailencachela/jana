@@ -1,142 +1,139 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .descripcionPrincipal {
-    padding: 5px;
-    margin: 5px;
+  padding: 5px;
+  margin: 5px;
 }
 
 .descripcionItalica {
-    font-style: italic;
+  font-style: italic;
 }
 
 .item-grilla1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    grid-column: 1;
-    grid-row: 1;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .grilla1 {
-    padding: 60px;
-    background-color: #FBEFD7;
-    display: grid;
-    grid-template-columns: 1fr
+  padding: 60px;
+  background-image: linear-gradient(white, #fbefd7);
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
-@media screen and (min-width: 720px){
-    .grilla1 {
-        grid-template-columns: repeat(2, 1fr);
-     }
+@media screen and (min-width: 720px) {
+  .grilla1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .grillaDesign {
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-@media screen and (min-width: 720px){
-    .grillaDesign {
-        flex-direction: row;
-    }
+@media screen and (min-width: 720px) {
+  .grillaDesign {
+    flex-direction: row;
+  }
 }
 
 .grillaDesign2 {
-    /* min-height: 100vh; */
-    width: 90%;
-    margin: 0 auto;
-    justify-items: space-around;
-    display: flex;
-    flex-wrap: wrap;
+  /* min-height: 100vh; */
+  width: 90%;
+  margin: 0 auto;
+  justify-items: space-around;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-@media screen and (min-width: 720px){
-    .grillaDesign2 {
-        flex-direction: row;
-    }
+@media screen and (min-width: 720px) {
+  .grillaDesign2 {
+    flex-direction: row;
+  }
 }
 
 .mayuscula {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .estilo-logo {
-    margin: 10px;
-    padding: 10px;
-    width: 100px;
-    height: 100px;
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
 }
 
 header {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .titulo {
-    font-family: 'Great Vibes';
-    font-size: 48px;
-    width: max-content;
-    text-decoration: none;
-    background-color: #FBEFD7;
-    padding: 12px;
-    border-radius: 15px;
-   
+  font-family: "Great Vibes";
+  font-size: 48px;
+  width: max-content;
+  text-decoration: none;
+  background-color: #fbefd7;
+  padding: 12px;
+  border-radius: 15px;
 }
 
 button {
-    padding: 8px;
+  padding: 8px;
 }
 
 .centrador {
-    text-align: center;
-    margin-top: 24px;
+  text-align: center;
+  margin-top: 24px;
 }
 
 .navegacion {
-    text-align: right;
+  text-align: right;
 }
 
 ul li {
-    list-style-type: none;
-    display: inline-block;
-    position: relative;
-    margin: 40px;
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  margin: 40px;
 }
 
 .grilla2 {
-    padding: 60px;
-    background-color: #f1d0b1;
-    display: grid;
-    grid-template-columns: 1fr;
+  padding: 60px;
+  background-image: linear-gradient(#fbefd7, #f1d0b1);
+  grid-template-columns: 1fr;
 }
 
-@media screen and (min-width: 720px){
-    .grilla2 {
-        grid-template-columns: repeat(3, 1fr);
-        // el pepe argento
-     }
+@media screen and (min-width: 720px) {
+  .grilla2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .item-grilla2 {
-    position: left;
-    grid-column: 2;
-    grid-row: 1;
+  position: left;
+  grid-column: 2;
+  grid-row: 1;
 }
 
 .texto-simple {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 
 .conoce-nuestro-local {
-    margin-bottom: 8px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .centrador__copyright {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
