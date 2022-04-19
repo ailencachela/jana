@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* LOGO JANA */
+.estilo-logo {
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+/* MENU NAVEGACION */
+.navegacion {
+    text-align: right;   
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    margin: 40px;
+}
+
+button {
+    padding: 8px;
+}
+
+.contenedor {
+    background-color: #FBEFD7;
+    padding: 24px;
+}
+
+/* FOOTER */
+.footer {
+    padding: 60px;
+    background-color: #f1d0b1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.texto-simple {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.textoFuente {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 8px;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 8px
+}
+
+.formularioMargen {
+    padding: 8px;
+}
+
+.formularioBotonMargen {
+    margin: 24px;
+}
+
+.centrador {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.mayuscula {
+    text-transform: uppercase;
+}
+
+.conoce-nuestro-local {
+    margin-bottom: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ESTILO TEXTO PPAL */
+.descripcionPrincipal {
+    padding: 5px;
+    margin: 5px;
+}
+
+.descripcionItalica {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.grilla2 {
+    padding: 60px;
+    background-color: #f1d0b1;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 720px){
+    .grilla2 {
+        grid-template-columns: repeat(3, 1fr);
+     }
+}
+
+.centrador__copyright {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
