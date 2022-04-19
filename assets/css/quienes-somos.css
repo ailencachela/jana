@@ -1,95 +1,95 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* LOGO JANA */
 .estilo-logo {
-    margin: 10px;
-    padding: 10px;
-    width: 100px;
-    height: 100px;
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
 }
 
 /* MENU NAVEGACION */
 .navegacion {
-    text-align: right;   
+  text-align: right;
 }
 
 ul li {
-    list-style-type: none;
-    display: inline-block;
-    position: relative;
-    margin: 40px;
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  margin: 40px;
 }
 
 button {
-    padding: 8px;
+  padding: 8px;
 }
 
 /* FOOTER */
 .footer {
-    padding: 60px;
-    background-color: #f1d0b1;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  padding: 60px;
+  background-color: #f1d0b1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .mayuscula {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .conoce-nuestro-local {
-    margin-bottom: 8px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .texto-simple {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 
 .centrador {
-    text-align: center;
-    margin-top: 24px;
+  text-align: center;
+  margin-top: 24px;
 }
 
 .contenedor {
-    background-color: #FBEFD7;
-    padding: 24px;
+  background-color: #fbefd7;
+  padding: 24px;
 }
 
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 8px;
 }
 
 /* ESTILO TEXTO PPAL */
 .descripcionPrincipal {
-    padding: 5px;
-    margin: 5px;
+  padding: 5px;
+  margin: 5px;
 }
 
 .descripcionItalica {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
 }
 
 .centrador__copyright {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .grilla2 {
-    padding: 60px;
-    background-color: #f1d0b1;
-    display: grid;
-    grid-template-columns: 1fr;
+  padding: 60px;
+  background-color: #f1d0b1;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
-@media screen and (min-width: 720px){
-    .grilla2 {
-        grid-template-columns: repeat(3, 1fr);
-     }
+@media screen and (min-width: 720px) {
+  .grilla2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
